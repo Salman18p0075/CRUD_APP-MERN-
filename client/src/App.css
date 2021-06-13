@@ -1,0 +1,70 @@
+
+.App {
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-image: url('form.jpg');
+height: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.information {
+display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+align-items: center;
+
+}
+
+input[type=text] {
+width: 300px;
+height: 50px;
+font-size: 20px;
+padding-left: 10px;
+margin: 5px;
+border-radius: 20px;
+
+}
+
+input[type=radio]{
+  width: 50px;
+  height: 50px;
+}
+
+button {
+width: 320px;
+height: 50px;
+margin-top: 15px;
+color: white;
+background-color: REd;
+} 
+
+button:hover {
+cursor: pointer;
+}
+
+.employees {
+display: flex;
+align-items: center;
+flex-direction: column;
+width: 100%;
+}
+
+.employee {
+width: 700px;
+height: auto;
+border: 1px solid white;
+
+margin: 10px;
+display: flex;
+padding: 10px;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.employee h3 {
+margin: 20px;
+color: aliceblue;
+}
